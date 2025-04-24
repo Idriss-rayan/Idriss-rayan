@@ -57,7 +57,7 @@
 ---
 
 ### 👁️ Profile Visitors Count:
-[![](https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=cyan&style=flat)](https://github.com/Idriss-rayan)
+[![](https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=00FFFF&style=flat)](https://github.com/Idriss-rayan)
 
 ---
 
