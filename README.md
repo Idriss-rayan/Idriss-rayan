@@ -19,6 +19,6 @@
 ![](https://github-contributor-stats.vercel.app/api?username=Idriss-rayan&limit=5&theme=default&combine_all_yearly_contributions=true)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=Idriss-rayan&icon=0&color=0)](https://visitcount.itsvg.in)
+[![](https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=00FFFF&style=flat)](https://github.com/Idriss-rayan)
 
 <!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
