@@ -3,7 +3,7 @@
 
 
 ## 🌐 Socials:
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayanidriss27@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayanidriss27@gmail.com)
 [![](https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=000000&style=flat)](https://github.com/Idriss-rayan)
 
 # 💻 Tech Stack:
