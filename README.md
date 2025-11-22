@@ -2,7 +2,7 @@
  Passionate developer always curious and eager to learn more.<br>💻 Skilled in Python, C/C++, C#, dart, Flutter & Dart.<br>🗄️ Experienced with relational databases like MySQL and  backend tools such as Firebase & Supabase.<br>🔧 I enjoy building solid, efficient, and well-thought-out solutions—whether it's for mobile apps or backend systems.<br> Constantly exploring new technologies and leveling up my skills
 
 
-## 🌐 Socials: ...
+## 🌐 Socials:
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:rayanidriss27@gmail.com)
 [![](https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=000000&style=flat)](https://github.com/Idriss-rayan)
 
