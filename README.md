@@ -1,4 +1,4 @@
-# NIr..
+# NIr
  Passionate developer always curious and eager to learn more.<br>💻 Skilled in Python, C/C++, C#, dart, Flutter & Dart.<br>🗄️ Experienced with relational databases like MySQL and  backend tools such as Firebase & Supabase.<br>🔧 I enjoy building solid, efficient, and well-thought-out solutions—whether it's for mobile apps or backend systems.<br> Constantly exploring new technologies and leveling up my skills...
 
 
