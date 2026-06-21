@@ -1,500 +1,347 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Profil Développeur — Glassmorphisme</title>
+<!--
+  ============================================================
+  PROFIL GITHUB — IDRISS RAYAN
+  Design Glassmorphisme (compatible GitHub)
+  ============================================================
+-->
 
-    <!-- Font Awesome pour les icônes -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+<div align="center">
 
-    <style>
-        /* ===== RESET & GLOBAL ===== */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+<!-- ===== BANDEAU D'EN-TÊTE ===== -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=Passionate+Developer;Flutter+%26+Dart+Expert;Cloud+Architect;Always+Curious" alt="Typing SVG" />
 
-        body {
-            min-height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: radial-gradient(circle at 20% 30%, #2b2d42, #1a1a2e, #0f0f1a);
-            padding: 2rem;
-            position: relative;
-            overflow-x: hidden;
-        }
+<br />
 
-        /* ===== ANIMATED BACKGROUND BLOBS ===== */
-        body::before,
-        body::after {
-            content: '';
-            position: fixed;
-            border-radius: 50%;
-            filter: blur(120px);
-            opacity: 0.4;
-            z-index: 0;
-            animation: floatBlob 12s ease-in-out infinite alternate;
-        }
+<!-- ===== BADGES SOCIAUX ===== -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:rayanidriss27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Idriss-rayan">
+    <img src="https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=6C5CE7&style=for-the-badge" alt="Profile Views" />
+  </a>
+</p>
 
-        body::before {
-            width: 500px;
-            height: 500px;
-            background: #6c5ce7;
-            top: -100px;
-            left: -100px;
-        }
+<!-- ===== BANDEAU DÉCORATIF ===== -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=100&section=header" width="100%" />
 
-        body::after {
-            width: 600px;
-            height: 600px;
-            background: #00b894;
-            bottom: -150px;
-            right: -150px;
-            animation-duration: 16s;
-            animation-delay: 2s;
-        }
+</div>
 
-        @keyframes floatBlob {
-            0% {
-                transform: translate(0, 0) scale(1);
-            }
-            100% {
-                transform: translate(60px, 40px) scale(1.2);
-            }
-        }
+---
 
-        /* ===== CARD PRINCIPALE — GLASSMORPHISM ===== */
-        .glass-card {
-            position: relative;
-            z-index: 1;
-            max-width: 1100px;
-            width: 100%;
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(24px) saturate(180%);
-            -webkit-backdrop-filter: blur(24px) saturate(180%);
-            border-radius: 48px;
-            border: 1px solid rgba(255, 255, 255, 0.12);
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.06);
-            padding: 2.5rem 3rem;
-            transition: transform 0.3s ease;
-        }
+## 👨‍💻 **À propos de moi**
 
-        .glass-card:hover {
-            transform: translateY(-4px);
-        }
+> *"Passionate developer always curious and eager to learn more."*
 
-        /* ===== EN-TÊTE ===== */
-        .header {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-items: flex-start;
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnQwdWoycHczZHJ1Z2Q0c2pzbHo4a2x0em9uN3hwNnJzYm1nN3E5MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZVik7pBtu9dNS/giphy.gif" width="200" />
 
-        .identity h1 {
-            font-size: 2.4rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #f7f7ff, #b2b5e0);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-            letter-spacing: -0.5px;
-        }
+🔹 **Développeur polyglotte** — Python, C/C++, C#, Dart, Java  
+🔹 **Spécialiste Mobile** — Flutter & Dart (cross-platform)  
+🔹 **Backend & Cloud** — Firebase, Supabase, AWS, Azure, GCP  
+🔹 **Bases de données** — MySQL, PostgreSQL, MongoDB, SQLite  
+🔹 **Outillage** — Git, GitHub, Figma, Postman, RayLib  
 
-        .identity .tagline {
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 1.05rem;
-            font-weight: 300;
-            margin-top: 0.2rem;
-            letter-spacing: 0.3px;
-        }
+Je conçois des solutions **robustes, efficaces et bien pensées** — du mobile au backend, en passant par l'infrastructure cloud.
 
-        .identity .tagline i {
-            color: #fdcb6e;
-            margin-right: 6px;
-        }
+---
 
-        .badge-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 1rem;
-            align-items: center;
-        }
+## 🛠️ **Tech Stack**
 
-        .badge-glass {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: rgba(255, 255, 255, 0.06);
-            backdrop-filter: blur(8px);
-            padding: 0.5rem 1.2rem;
-            border-radius: 60px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            color: rgba(255, 255, 255, 0.8);
-            font-size: 0.85rem;
-            text-decoration: none;
-            transition: all 0.25s ease;
-        }
+<!-- ===== LANGAGES ===== -->
+### 💻 Langages
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+</p>
 
-        .badge-glass:hover {
-            background: rgba(255, 255, 255, 0.12);
-            border-color: rgba(255, 255, 255, 0.2);
-            transform: scale(1.04);
-            color: #fff;
-        }
+<!-- ===== MOBILE ===== -->
+### 📱 Mobile
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+</p>
 
-        .badge-glass i {
-            font-size: 1.1rem;
-            color: #74b9ff;
-        }
+<!-- ===== BACKEND & CLOUD ===== -->
+### ☁️ Backend & Cloud
+<p align="center">
+  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+</p>
 
-        .badge-glass .fa-linkedin {
-            color: #0a66c2;
-        }
-        .badge-glass .fa-envelope {
-            color: #ea4335;
-        }
+<!-- ===== BASE DE DONNÉES ===== -->
+### 🗄️ Bases de données
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
 
-        /* ===== BIO ===== */
-        .bio {
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 24px;
-            padding: 1.5rem 2rem;
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            margin-bottom: 2rem;
-            color: rgba(255, 255, 255, 0.8);
-            line-height: 1.7;
-            font-size: 1rem;
-        }
+<!-- ===== OUTILS ===== -->
+### 🔧 Outils & DevOps
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/RayLib-FFFFFF?style=for-the-badge&logo=raylib&logoColor=black" />
+</p>
 
-        .bio strong {
-            color: #dfe6e9;
-        }
+---
 
-        .bio i {
-            color: #fdcb6e;
-            margin-right: 6px;
-        }
+## 📊 **GitHub Analytics**
 
-        /* ===== TECH STACK ===== */
-        .section-title {
-            font-size: 1.2rem;
-            font-weight: 600;
-            color: rgba(255, 255, 255, 0.7);
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-bottom: 1.2rem;
-            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-            padding-bottom: 0.6rem;
-        }
+<!-- ===== STATS ===== -->
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Idriss-rayan&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&icon_color=6C5CE7&title_color=6C5CE7" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Idriss-rayan&theme=dark&hide_border=true&bg_color=00000000&layout=compact&title_color=6C5CE7" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
 
-        .section-title i {
-            margin-right: 10px;
-            color: #74b9ff;
-        }
+<!-- ===== STREAK ===== -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Idriss-rayan&theme=dark&hide_border=true&bg_color=00000000&ring=6C5CE7&fire=6C5CE7&currStreakLabel=6C5CE7" alt="GitHub Streak" />
+</p>
 
-        .tech-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 0.7rem 1rem;
-            margin-bottom: 2.2rem;
-        }
+---
 
-        .tech-tag {
-            background: rgba(255, 255, 255, 0.05);
-            backdrop-filter: blur(6px);
-            padding: 0.4rem 1.2rem;
-            border-radius: 40px;
-            border: 1px solid rgba(255, 255, 255, 0.06);
-            color: rgba(255, 255, 255, 0.75);
-            font-size: 0.85rem;
-            font-weight: 400;
-            transition: all 0.2s ease;
-            letter-spacing: 0.2px;
-        }
+## 🏆 **Trophées GitHub**
 
-        .tech-tag:hover {
-            background: rgba(255, 255, 255, 0.10);
-            border-color: rgba(255, 255, 255, 0.15);
-            transform: translateY(-2px);
-            color: #fff;
-        }
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Idriss-rayan&theme=radical&no-frame=false&no-bg=true&margin-w=8&column=4" alt="GitHub Trophies" />
+</p>
 
-        .tech-tag i {
-            margin-right: 6px;
-            font-size: 0.9rem;
-        }
+---
 
-        .tech-tag .fa-python {
-            color: #3776ab;
-        }
-        .tech-tag .fa-cuttlefish {
-            color: #00599c;
-        }
-        .tech-tag .fa-dart {
-            color: #00b4ab;
-        }
-        .tech-tag .fa-flutter {
-            color: #54c5f8;
-        }
-        .tech-tag .fa-java {
-            color: #f89820;
-        }
-        .tech-tag .fa-database {
-            color: #47a248;
-        }
-        .tech-tag .fa-cloud {
-            color: #ff9900;
-        }
-        .tech-tag .fa-fire {
-            color: #ffca28;
-        }
-        .tech-tag .fa-aws {
-            color: #ff9900;
-        }
-        .tech-tag .fa-microsoft {
-            color: #0078d4;
-        }
-        .tech-tag .fa-google {
-            color: #4285f4;
-        }
-        .tech-tag .fa-git-alt {
-            color: #f05032;
-        }
-        .tech-tag .fa-figma {
-            color: #f24e1e;
-        }
-        .tech-tag .fa-node {
-            color: #68a063;
-        }
+## 📈 **Top Contributions**
 
-        /* ===== STATS + TROPHIES ===== */
-        .stats-row {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
-            margin-bottom: 2rem;
-        }
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Idriss-rayan&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributors" />
+</p>
 
-        .stat-box {
-            background: rgba(255, 255, 255, 0.03);
-            border-radius: 20px;
-            padding: 1.2rem 1.5rem;
-            border: 1px solid rgba(255, 255, 255, 0.04);
-            text-align: center;
-            transition: all 0.25s ease;
-        }
+---
 
-        .stat-box:hover {
-            background: rgba(255, 255, 255, 0.06);
-            border-color: rgba(255, 255, 255, 0.08);
-        }
+## 🎯 **Objectifs 2026**
 
-        .stat-box .number {
-            font-size: 1.8rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, #a29bfe, #6c5ce7);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
+- [ ] Deepen expertise in **System Architecture**
+- [ ] Contribute to **Open Source Flutter Projects**
+- [ ] Obtain **AWS Certified Developer** certification
+- [ ] Build a **SaaS product** with Flutter + Supabase
+- [ ] Write technical articles on **Dev.to**
 
-        .stat-box .label {
-            color: rgba(255, 255, 255, 0.5);
-            font-size: 0.8rem;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-top: 2px;
-        }
+---
 
-        .stat-box i {
-            color: #fdcb6e;
-            margin-right: 6px;
-        }
+## 📫 **Me contacter**
 
-        /* ===== TROPHIES ===== */
-        .trophy-row {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 0.8rem 1.5rem;
-            padding: 1rem 0;
-            margin-bottom: 1rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.04);
-        }
+<p align="center">
+  <a href="https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:rayanidriss27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/Idriss-rayan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
 
-        .trophy-item {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            color: rgba(255, 255, 255, 0.6);
-            font-size: 0.9rem;
-        }
+---
 
-        .trophy-item i {
-            font-size: 1.3rem;
-            color: #fdcb6e;
-        }
+<!-- ===== FOOTER ===== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=80&section=footer" width="100%" />
+  
+  <sub>
+    <b>✨ Proudly crafted with 💜 by Idriss Rayan ✨</b>
+  </sub>
+</div><!--
+  ============================================================
+  PROFIL GITHUB — IDRISS RAYAN
+  Design Glassmorphisme (compatible GitHub)
+  ============================================================
+-->
 
-        /* ===== FOOTER ===== */
-        .footer-note {
-            text-align: center;
-            color: rgba(255, 255, 255, 0.2);
-            font-size: 0.75rem;
-            letter-spacing: 0.5px;
-            margin-top: 1.5rem;
-            border-top: 1px solid rgba(255, 255, 255, 0.03);
-            padding-top: 1.2rem;
-        }
+<div align="center">
 
-        /* ===== RESPONSIVE ===== */
-        @media (max-width: 768px) {
-            .glass-card {
-                padding: 1.5rem;
-            }
+<!-- ===== BANDEAU D'EN-TÊTE ===== -->
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=6C5CE7&center=true&vCenter=true&width=600&lines=Passionate+Developer;Flutter+%26+Dart+Expert;Cloud+Architect;Always+Curious" alt="Typing SVG" />
 
-            .header {
-                flex-direction: column;
-                align-items: stretch;
-            }
+<br />
 
-            .identity h1 {
-                font-size: 1.8rem;
-            }
+<!-- ===== BADGES SOCIAUX ===== -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:rayanidriss27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  <a href="https://github.com/Idriss-rayan">
+    <img src="https://komarev.com/ghpvc/?username=Idriss-rayan&label=Profile+Views&color=6C5CE7&style=for-the-badge" alt="Profile Views" />
+  </a>
+</p>
 
-            .stats-row {
-                grid-template-columns: 1fr;
-            }
+<!-- ===== BANDEAU DÉCORATIF ===== -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=100&section=header" width="100%" />
 
-            .bio {
-                padding: 1rem;
-                font-size: 0.92rem;
-            }
+</div>
 
-            .badge-container {
-                justify-content: flex-start;
-            }
-        }
+---
 
-        @media (max-width: 480px) {
-            .glass-card {
-                padding: 1rem;
-                border-radius: 32px;
-            }
+## 👨‍💻 **À propos de moi**
 
-            .tech-tag {
-                font-size: 0.75rem;
-                padding: 0.3rem 1rem;
-            }
-        }
-    </style>
-</head>
-<body>
+> *"Passionate developer always curious and eager to learn more."*
 
-    <div class="glass-card">
+<img align="right" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnQwdWoycHczZHJ1Z2Q0c2pzbHo4a2x0em9uN3hwNnJzYm1nN3E5MSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/ZVik7pBtu9dNS/giphy.gif" width="200" />
 
-        <!-- ===== HEADER ===== -->
-        <div class="header">
-            <div class="identity">
-                <h1>Idriss Rayan N.</h1>
-                <div class="tagline">
-                    <i class="fas fa-code"></i> Développeur polyglotte · Flutter · Backend · Cloud
-                </div>
-            </div>
-            <div class="badge-container">
-                <a href="https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/" class="badge-glass" target="_blank">
-                    <i class="fab fa-linkedin"></i> LinkedIn
-                </a>
-                <a href="mailto:rayanidriss27@gmail.com" class="badge-glass">
-                    <i class="fas fa-envelope"></i> Email
-                </a>
-                <span class="badge-glass">
-                    <i class="fas fa-eye"></i> 1.2k vues
-                </span>
-            </div>
-        </div>
+🔹 **Développeur polyglotte** — Python, C/C++, C#, Dart, Java  
+🔹 **Spécialiste Mobile** — Flutter & Dart (cross-platform)  
+🔹 **Backend & Cloud** — Firebase, Supabase, AWS, Azure, GCP  
+🔹 **Bases de données** — MySQL, PostgreSQL, MongoDB, SQLite  
+🔹 **Outillage** — Git, GitHub, Figma, Postman, RayLib  
 
-        <!-- ===== BIO ===== -->
-        <div class="bio">
-            <i class="fas fa-quote-left"></i>
-            <strong>Passionate developer</strong> — toujours curieux, en quête perpétuelle d’apprentissage.
-            <br />
-            <i class="fas fa-laptop-code"></i> Expert en <strong>Flutter &amp; Dart</strong>, maîtrise de <strong>C / C++ / C# / Python / Java</strong>.
-            <br />
-            <i class="fas fa-database"></i> Bases de données <strong>relationnelles</strong> (MySQL, PostgreSQL) et <strong>BaaS</strong> (Firebase, Supabase).
-            <br />
-            <i class="fas fa-cloud-upload-alt"></i> Architecte <strong>cloud multi-fournisseur</strong> — AWS · Azure · GCP · Oracle.
-            <br />
-            <i class="fas fa-rocket"></i> Conception de solutions <strong>solides, efficaces et pérennes</strong> — du mobile au backend.
-        </div>
+Je conçois des solutions **robustes, efficaces et bien pensées** — du mobile au backend, en passant par l'infrastructure cloud.
 
-        <!-- ===== TECH STACK ===== -->
-        <div class="section-title">
-            <i class="fas fa-cogs"></i> Stack technique
-        </div>
-        <div class="tech-grid">
-            <span class="tech-tag"><i class="fab fa-python"></i> Python</span>
-            <span class="tech-tag"><i class="fas fa-cuttlefish"></i> C / C++</span>
-            <span class="tech-tag"><i class="fas fa-code"></i> C#</span>
-            <span class="tech-tag"><i class="fab fa-dart"></i> Dart</span>
-            <span class="tech-tag"><i class="fab fa-flutter"></i> Flutter</span>
-            <span class="tech-tag"><i class="fab fa-java"></i> Java</span>
-            <span class="tech-tag"><i class="fas fa-database"></i> MySQL</span>
-            <span class="tech-tag"><i class="fas fa-database"></i> PostgreSQL</span>
-            <span class="tech-tag"><i class="fas fa-leaf"></i> MongoDB</span>
-            <span class="tech-tag"><i class="fas fa-database"></i> SQLite</span>
-            <span class="tech-tag"><i class="fas fa-fire"></i> Firebase</span>
-            <span class="tech-tag"><i class="fas fa-cloud"></i> Supabase</span>
-            <span class="tech-tag"><i class="fab fa-aws"></i> AWS</span>
-            <span class="tech-tag"><i class="fab fa-microsoft"></i> Azure</span>
-            <span class="tech-tag"><i class="fab fa-google"></i> GCP</span>
-            <span class="tech-tag"><i class="fas fa-cloud"></i> Oracle Cloud</span>
-            <span class="tech-tag"><i class="fab fa-node"></i> NodeJS</span>
-            <span class="tech-tag"><i class="fab fa-git-alt"></i> Git</span>
-            <span class="tech-tag"><i class="fab fa-github"></i> GitHub</span>
-            <span class="tech-tag"><i class="fas fa-cube"></i> RayLib</span>
-            <span class="tech-tag"><i class="fab fa-figma"></i> Figma</span>
-            <span class="tech-tag"><i class="fas fa-flask"></i> Postman</span>
-        </div>
+---
 
-        <!-- ===== STATS ===== -->
-        <div class="section-title">
-            <i class="fas fa-chart-line"></i> Activité GitHub
-        </div>
-        <div class="stats-row">
-            <div class="stat-box">
-                <div class="number">127</div>
-                <div class="label"><i class="fas fa-code-branch"></i> Dépôts publics</div>
-            </div>
-            <div class="stat-box">
-                <div class="number">486</div>
-                <div class="label"><i class="fas fa-fire"></i> Jours de streak</div>
-            </div>
-        </div>
+## 🛠️ **Tech Stack**
 
-        <!-- ===== TROPHIES ===== -->
-        <div class="section-title">
-            <i class="fas fa-trophy"></i> Récompenses
-        </div>
-        <div class="trophy-row">
-            <span class="trophy-item"><i class="fas fa-star"></i> 4x Top Contributor</span>
-            <span class="trophy-item"><i class="fas fa-award"></i> Pair Extraordinaire</span>
-            <span class="trophy-item"><i class="fas fa-medal"></i> Pulse Maintainer</span>
-            <span class="trophy-item"><i class="fas fa-code"></i> 2x Hackathon Winner</span>
-        </div>
+<!-- ===== LANGAGES ===== -->
+### 💻 Langages
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" />
+  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" />
+  <img src="https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+</p>
 
-        <!-- ===== FOOTER ===== -->
-        <div class="footer-note">
-            <i class="fas fa-crown"></i> Profil généré avec  · Glassmorphisme · 2026
-        </div>
+<!-- ===== MOBILE ===== -->
+### 📱 Mobile
+<p align="center">
+  <img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+  <img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white" />
+</p>
 
-    </div>
+<!-- ===== BACKEND & CLOUD ===== -->
+### ☁️ Backend & Cloud
+<p align="center">
+  <img src="https://img.shields.io/badge/Firebase-039BE5?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+  <img src="https://img.shields.io/badge/Node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" />
+  <img src="https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+  <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" />
+</p>
 
-</body>
-</html>
+<!-- ===== BASE DE DONNÉES ===== -->
+### 🗄️ Bases de données
+<p align="center">
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
+
+<!-- ===== OUTILS ===== -->
+### 🔧 Outils & DevOps
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white" />
+  <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" />
+  <img src="https://img.shields.io/badge/RayLib-FFFFFF?style=for-the-badge&logo=raylib&logoColor=black" />
+</p>
+
+---
+
+## 📊 **GitHub Analytics**
+
+<!-- ===== STATS ===== -->
+<table align="center">
+  <tr>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api?username=Idriss-rayan&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&icon_color=6C5CE7&title_color=6C5CE7" alt="GitHub Stats" />
+    </td>
+    <td>
+      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Idriss-rayan&theme=dark&hide_border=true&bg_color=00000000&layout=compact&title_color=6C5CE7" alt="Top Languages" />
+    </td>
+  </tr>
+</table>
+
+<!-- ===== STREAK ===== -->
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Idriss-rayan&theme=dark&hide_border=true&bg_color=00000000&ring=6C5CE7&fire=6C5CE7&currStreakLabel=6C5CE7" alt="GitHub Streak" />
+</p>
+
+---
+
+## 🏆 **Trophées GitHub**
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=Idriss-rayan&theme=radical&no-frame=false&no-bg=true&margin-w=8&column=4" alt="GitHub Trophies" />
+</p>
+
+---
+
+## 📈 **Top Contributions**
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Idriss-rayan&limit=5&theme=dark&combine_all_yearly_contributions=true" alt="Top Contributors" />
+</p>
+
+---
+
+## 🎯 **Objectifs 2026**
+
+- [ ] Deepen expertise in **System Architecture**
+- [ ] Contribute to **Open Source Flutter Projects**
+- [ ] Obtain **AWS Certified Developer** certification
+- [ ] Build a **SaaS product** with Flutter + Supabase
+- [ ] Write technical articles on **Dev.to**
+
+---
+
+## 📫 **Me contacter**
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/njutapmvoui-idriss-rayan-37477a28a/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:rayanidriss27@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://github.com/Idriss-rayan">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+---
+
+<!-- ===== FOOTER ===== -->
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=6C5CE7&height=80&section=footer" width="100%" />
+  
+  <sub>
+    <b>✨ Proudly crafted with 💜 by Idriss Rayan ✨</b>
+  </sub>
+</div>
