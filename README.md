@@ -1,10 +1,3 @@
-
-  ============================================================
-  PROFIL GITHUB — IDRISS RAYAN
-  Design Glassmorphisme (compatible GitHub)
-  ============================================================
--->
-
 <div align="center">
 
 <!-- ===== BANDEAU D'EN-TÊTE ===== -->
